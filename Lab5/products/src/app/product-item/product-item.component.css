@@ -1,0 +1,65 @@
+.product-item {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    width: 280px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background: #fff;
+}
+.product-image {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+h3 {
+    font-size: 1.2rem;
+    color: #333;
+    margin: 10px 0 5px;
+}
+p {
+    font-size: 0.9rem;
+    color: #666;
+    margin: 5px 0;
+}
+.view-link {
+    display: inline-block;
+    margin: 8px 0;
+    text-decoration: none;
+    color: #007bff;
+}
+.actions, .share-buttons {
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+.like-btn { background-color: #28a745; color: #fff; }
+.remove-btn { background-color: #dc3545; color: #fff; }
+.whatsapp { background-color: #25D366; color: #fff; }
+.telegram { background-color: #0088cc; color: #fff; }
+.gallery {
+    margin-top: 10px;
+}
+.gallery h4 {
+    font-size: 1rem;
+    margin-bottom: 8px;
+    color: #333;
+}
+.gallery-images {
+    display: flex;
+    gap: 5px;
+}
+.gallery-images img {
+    width: 50px;
+    height: auto;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}

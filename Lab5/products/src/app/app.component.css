@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+}
+.categories {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.categories button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #eee;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1rem;
+}
+.categories button.selected {
+    background-color: #ccc;
+}
+.products-section {
+    padding: 20px;
+}
